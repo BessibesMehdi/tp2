@@ -1,0 +1,14 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+[*]
+indent_style = space
+indent_size = 4
+# end_of_line non imposé : l'éditeur visuel de l'extension XState VSCode (v2.1.0)
+# ne parvient à réécrire le code que si les fins de ligne du fichier sont celles
+# de l'OS (CRLF sous Windows, LF sous macOS/Linux).
+charset = utf-8
+trim_trailing_whitespace = false
+insert_final_newline = false
