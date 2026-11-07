@@ -1,0 +1,12 @@
+Q1 : Un objet JavaScript (States), utilisé comme une énumération.
+Q2 : Une structure conditionnelle if / else.
+Q3 : Les états sont représentés par des classes (IdleState et DrawingState) qui héritent de la classe State.
+Q4 : Le if / else est remplacé par le polymorphisme : chaque état gère directement les événements.
+Q5 : État : idle ; événement : MOUSECLICK ; transition : target: "drawing".
+Q6 : Transition : MOUSECLICK dans l'état drawing, vers idle. Action : saveLine.
+Q7 : changer rubber.stroke("blue")
+Q8 : XState permet de représenter clairement les états et les transitions dans une machine à états. Il facilite la compréhension, la maintenance et la visualisation du fonctionnement.
+Q9 
+État / Événement	          MOUSECLICK          	MOUSEMOVE
+idle	                  drawing + createLine	     Aucune action
+drawing	                     idle + saveLine	     drawing + setLastPoint
